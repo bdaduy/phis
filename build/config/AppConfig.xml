@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IPAddress>localhost</IPAddress>
+  <Port>8080</Port>
+  <Password>ChangeMe</Password>
+  <InputFolder>C:\PatientNotes</InputFolder>
+  <OutputFolder>C:\DeidentifiedNotes</OutputFolder>
+  <CaseSensitiveTerms>
+    <string>MD</string>
+    <string>MBBS</string>
+    <string>PhD</string>
+    <string>PHD</string>
+    <string>DRN</string>
+    <string>M.D.</string>
+    <string>CRNP</string>
+    <string>LPN</string>
+    <string>RDMS</string>
+    <string>RVT</string>
+    <string>Ph.D</string>
+    <string>RVTAs</string>
+    <string>FACS</string>
+    <string>N.P.</string>
+    <string>DMD</string>
+    <string>PA-C</string>
+    <string>BSN</string>
+    <string>CWOCN</string>
+    <string>SCi.D</string>
+    <string>MSS</string>
+    <string>MMDD</string>
+    <string>M.D</string>
+    <string>PGY2</string>
+    <string>CNM</string>
+    <string>PGY-3</string>
+    <string>PGY3</string>
+  </CaseSensitiveTerms>
+  <CaseInSensitiveTerms>
+    <string>uab</string>
+    <string>birmingham</string>
+    <string>alabama</string>
+  </CaseInSensitiveTerms>
+</AppConfig>

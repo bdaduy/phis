@@ -1,0 +1,502 @@
+Abkhazia
+Afghan
+Afghanistan
+African
+Aland
+Albania
+Albanian
+Algeria
+Algerian
+American
+American Samoa
+Andorra
+Andorran
+Angola
+Angolan
+Anguilla
+Antarctic Lands
+Antigua
+Antigua and Barbuda
+Antiguans
+Argentina
+Argentinean
+Armenia
+Armenian
+Aruba
+Ascension
+Ashmore
+Ashmore and Cartier Islands
+Australia
+Australian
+Australian Antarctic Territory
+Austria
+Austrian
+Azerbaijan
+Azerbaijani
+Bahamas
+Bahamian
+Bahrain
+Bahraini
+Baker Island
+Bangladesh
+Bangladeshi
+Barbadian
+Barbados
+Barbuda
+Barbudans
+Batswana
+Belarus
+Belarusian
+Belgian
+Belgium
+Belize
+Belizean
+Benin
+Beninese
+Bermuda
+Bhutan
+Bhutanese
+Bolivia
+Bolivian
+Bosnia
+Bosnia and Herzegovina
+Bosnian
+Botswana
+Bouvet Island
+Brazil
+Brazilian
+British
+British Antarctic Territory
+British Indian Ocean Territory
+British Sovereign Base Areas
+British Virgin Islands
+Brunei
+Bruneian
+Bulgaria
+Bulgarian
+Burkina Faso
+Burkinabe
+Burma
+Burmese
+Burundi
+Burundian
+Cambodia
+Cambodian
+Cameroon
+Cameroonian
+Canada
+Canadian
+Cape Verde
+Cape Verdean
+Cartier Islands
+Cayman Islands
+Central African
+Central African Republic
+Chad
+Chadian
+Chile
+Chilean
+China
+China, People's Republic of
+Chinese
+Christmas Island
+Clipperton Island
+Cocos
+Cocos and Keeling Islands
+Colombia
+Colombian
+Comoran
+Comoros
+Congo
+Congolese
+Cook Islands
+Coral Sea Islands
+Costa Rica
+Costa Rican
+Cote d'Ivoire
+Croatia
+Croatian
+Cuba
+Cuban
+Cypriot
+Cyprus
+Czech
+Czech Republic
+Danish
+Denmark
+Djibouti
+Dominica
+Dominican
+Dominican Republic
+Dutch
+Dutchman
+Dutchwoman
+East Timor
+East Timorese
+Ecuador
+Ecuadorean
+Egypt
+Egyptian
+El Salvador
+Emirian
+Equatorial Guinea
+Equatorial Guinean
+Eritrea
+Eritrean
+Estonia
+Estonian
+Ethiopia
+Ethiopian
+Falkland Islands
+Faroe Islands
+Fiji
+Fijian
+Filipino
+Finland
+Finnish
+France
+French
+French Guiana
+French Polynesia
+French Southern
+French Southern and Antarctic Lands
+Futuna
+Gabon
+Gabonese
+Gambia
+Gambian
+Georgia
+Georgian
+German
+Germany
+Ghana
+Ghanaian
+Gibraltar
+Greece
+Greek
+Greenland
+Grenada
+Grenadian
+Grenadines
+Guadeloupe
+Guam
+Guatemala
+Guatemalan
+Guernsey
+Guinea
+Guinea-Bissau
+Guinea-Bissauan
+Guinean
+Guyana
+Guyanese
+Haiti
+Haitian
+Heard Island
+Heard Island and McDonald Islands
+Herzegovina
+Herzegovinian
+Honduran
+Honduras
+Howland Island
+Hungarian
+Hungary
+I-Kiribati
+Iceland
+Icelander
+India
+Indian
+Indonesia
+Indonesian
+Iran
+Iranian
+Iraq
+Iraqi
+Ireland
+Irish
+Islas Malvinas
+Isle of Man
+Israel
+Israeli
+Italian
+Italy
+Ivorian
+Ivory Coast
+Jamaica
+Jamaican
+Japan
+Japanese
+Jarvis Island
+Jersey
+Johnston Atoll
+Jordan
+Jordanian
+Kazakhstan
+Kazakhstani
+Keeling Islands
+Kenya
+Kenyan
+Kingman Reef
+Kiribati
+Kittian
+Kittian and Nevisian
+Korea
+Kuwait
+Kuwaiti
+Kyrgyz
+Kyrgyzstan
+Laos
+Laotian
+Latvia
+Latvian
+Lebanese
+Lebanon
+Lesotho
+Liberia
+Liberian
+Libya
+Libyan
+Liechtenstein
+Liechtensteiner
+Lithuania
+Lithuanian
+Luxembourg
+Luxembourger
+Macau
+Macedonia
+Macedonian
+Madagascar
+Malagasy
+Malawi
+Malawian
+Malaysia
+Malaysian
+Maldivan
+Maldives
+Mali
+Malian
+Malta
+Maltese
+Marshall Islands
+Marshallese
+Martinique
+Mauritania
+Mauritanian
+Mauritian
+Mauritius
+Mayotte
+McDonald Islands
+Mexican
+Mexico
+Micronesia
+Micronesian
+Midway Islands
+Miquelon
+Moldova
+Moldovan
+Monacan
+Monaco
+Mongolia
+Mongolian
+Montenegro
+Montserrat
+Moroccan
+Morocco
+Mosotho
+Motswana
+Mozambican
+Mozambique
+Myanmar
+Nagorno-Karabakh
+Namibia
+Namibian
+Nauru
+Nauruan
+Navassa Island
+Nepal
+Nepalese
+Netherlander
+Netherlands
+Netherlands Antilles
+Nevis
+Nevisian
+New Caledonia
+New Zealand
+New Zealander
+Ni-Vanuatu
+Nicaragua
+Nicaraguan
+Niger
+Nigeria
+Nigerian
+Nigerien
+Niue
+Norfolk Island
+North Korea
+North Korean
+Northern Cyprus
+Northern Irish
+Northern Mariana Islands
+Norway
+Norwegian
+Oman
+Omani
+Pakistan
+Pakistani
+Palau
+Palauan
+Palmyra Atoll
+Panama
+Panamanian
+Papua
+Papua New Guinea
+Papua New Guinean
+Paraguay
+Paraguayan
+Peru
+Peruvian
+Peter I Island
+Philippines
+Pitcairn Islands
+Poland
+Polish
+Portugal
+Portuguese
+Pridnestrovie
+Principe
+Puerto Rico
+Qatar
+Qatari
+Queen Maud Land
+Reunion
+Romania
+Romanian
+Ross Dependency
+Russia
+Russian
+Rwanda
+Rwandan
+Saint Barthelemy
+Saint Helena
+Saint Kitts
+Saint Kitts and Nevis
+Saint Lucia
+Saint Lucian
+Saint Martin
+Saint Pierre
+Saint Pierre and Miquelon
+Saint Vincent
+Saint Vincent and the Grenadines
+Salvadoran
+Samoa
+Samoan
+San Marinese
+San Marino
+Sao Tome
+Sao Tome and Principe
+Sao Tomean
+Saudi
+Saudi Arabia
+Saudi Arabian
+Scottish
+Senegal
+Senegalese
+Serbia
+Serbian
+Seychelles
+Seychellois
+Sierra Leone
+Sierra Leonean
+Singapore
+Singaporean
+Slovakia
+Slovakian
+Slovenia
+Slovenian
+Solomon Islander
+Solomon Islands
+Somali
+Somalia
+Somaliland
+South Africa
+South African
+South Georgia
+South Georgia and South Sandwich Islands
+South Korea
+South Korean
+South Ossetia
+South Sandwich
+Spain
+Spanish
+Sri Lanka
+Sri Lankan
+Sudan
+Sudanese
+Suriname
+Surinamer
+Svalbard
+Swazi
+Swaziland
+Sweden
+Swedish
+Swiss
+Switzerland
+Syria
+Syrian
+Taiwan
+Taiwanese
+Tajik
+Tajikistan
+Tanzania
+Tanzanian
+Thai
+Thailand
+Timor-Leste
+Tobago
+Tobagonian
+Togo
+Togolese
+Tokelau
+Tonga
+Tongan
+Transnistria
+Trinidad
+Trinidad and Tobago
+Trinidadian
+Trinidadian or Tobagonian
+Tristan da Cunha
+Tunisia
+Tunisian
+Turkey
+Turkish
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Tuvaluan
+U.S. Virgin Islands
+Uganda
+Ugandan
+Ukraine
+Ukrainian
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uruguayan
+Uzbekistan
+Uzbekistani
+Vanuatu
+Vatican City
+Venezuela
+Venezuelan
+Vietnam
+Vietnamese
+Wake Island
+Wallis
+Wallis and Futuna
+Welsh
+Yemen
+Yemenite
+Zambia
+Zambian
+Zimbabwe
+Zimbabwean

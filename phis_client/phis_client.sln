@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phis_client", "phis_client\phis_client.csproj", "{EFC64212-4110-44BB-9DBA-F81ABAE679F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Debug|x64.ActiveCfg = Debug|x64
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Debug|x64.Build.0 = Debug|x64
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Release|x64.ActiveCfg = Release|x64
+		{EFC64212-4110-44BB-9DBA-F81ABAE679F7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {193EC18E-15B2-4D2C-BE9A-C09B1D077C70}
+	EndGlobalSection
+EndGlobal

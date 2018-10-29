@@ -1,0 +1,1 @@
+java -Xmx1g -jar target/phis_server.jar
