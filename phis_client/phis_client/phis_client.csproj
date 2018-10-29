@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EFC64212-4110-44BB-9DBA-F81ABAE679F7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DeIdClient</RootNamespace>
-    <AssemblyName>DeIdClient</AssemblyName>
+    <RootNamespace>phis_client</RootNamespace>
+    <AssemblyName>phis_client</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,7 +4,11 @@
 PHIS is an automatic de-identification software used to removing sensitive protected health information (PHI) from medical texts. Our PHI definition was based on HIPAA's Privacy Rule and Uzuner et al.' work on de-identification challenge. PHIS was derived from an internal research project at the Informatics Institute, University of Alabama at Birmingham (UAB).
 
 ## Screenshot:
-![phis main screen](https://github.com/bdaduy/phis/blob/master/images/MainGui.png?raw=true)
+![phis standalone](https://github.com/bdaduy/phis/blob/master/images/phis_standalone.png?raw=true)
+![phis client](https://github.com/bdaduy/phis/blob/master/images/phis_client.png?raw=true)
+![phis server](https://github.com/bdaduy/phis/blob/master/images/phis_server.png?raw=true)
+
+## Latest Build:
 
 ### ![Download Latest Build](https://github.com/bdaduy/phis/blob/master/build/phis.exe?raw=true)
 
