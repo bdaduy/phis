@@ -18,7 +18,7 @@ using System.Xml;
 using System.Web.Script.Serialization;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
-using System.Web.Helpers;
+using phis_client.CS.Model;
 /**
 *
 * @author Duy Bui
@@ -322,11 +322,14 @@ namespace DeIdClient
 
                     string response = wc.UploadString(Url, message);
 
-                    dynamic obj = Json.Decode(response);
+                    var responseObj = new JavaScriptSerializer().Deserialize<Response>(response);
 
-                    if (obj.annotations != null)
+
+                    //dynamic obj = Json.Decode(response);
+
+                    if (responseObj.annotations != null)
                     {
-                        foreach (var ann in obj.annotations)
+                        foreach (var ann in responseObj.annotations)
                         {
                             Annotation newann = new Annotation(ann.start, ann.end, currentDoc.text.Substring(ann.start,ann.end-ann.start));
                             annotationList.Add(newann);
