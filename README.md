@@ -4,49 +4,48 @@
 Personal Health Information Scrubber, or PHIS, is a de-identification software helped to remove individual-identifiable protected health information (PHI) (e.g, patient names, SSN, address, etc. ) from clinical texts. Our PHI model is based on an extended definition of [HIPAA Privacy Rule](https://www.hhs.gov/sites/default/files/hipaa-simplification-201303.pdf) which has two models: Safe Harbor (SH) and Limited Data Set (LDS). The SH model included 18 HIPAA-recommended identifiers for patients, their relatives, employers, extended to cover physicians and providers. the LDS model keeps information such as Age, Date, Zip code. LDS model retains more information for research, however, data recipients need to sign Data Use Agreement (DUA) with providers to promise additional data protection mechanisms. PHIS was originally developed at the Informatics Institute, University of Alabama at Birmingham (UAB) and released to public under MIT license.
 
 ## Basic Features
-- Support standalone and client-server deployment modes.
-- Support manual and automated de-identification.
-- Support management of custom PHI terminology defined by Users.
-- Support batch processing of multiple documents (standalone version only).
-- Support two de-identification modes: "Safe Harbor" AND "Limited Data Set". 
+- Standalone and client-server deployment modes.
+- Manual and automated de-identification.
+- Management of custom PHI terminology defined by Users.
+- Batch processing of multiple documents (standalone version only).
+- Two de-identification modes: "Safe Harbor" AND "Limited Data Set". 
 
 ## Latest Build
-- ![phis_standalone.exe](https://github.com/bdaduy/phis/releases/download/v1.0/phis_standalone.exe)
-- ![phis_standalone.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_standalone.jar)
-- ![phis_client.exe](https://github.com/bdaduy/phis/releases/download/v1.0/phis_client.exe)
-- ![phis_server.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_server.jar)
-- ![source code](https://github.com/bdaduy/phis/archive/v1.0.zip)
+- [phis_standalone.exe](phis/releases/download/v1.0/phis_standalone.exe)
+- [phis_standalone.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_standalone.jar)
+- [phis_client.exe](https://github.com/bdaduy/phis/releases/download/v1.0/phis_client.exe)
+- [phis_server.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_server.jar)
+- [source code](https://github.com/bdaduy/phis/archive/v1.0.zip)
 
 ## How To Run
-### Standalone
+### Runtime requirement
+- Windows 7 or later / MacOS
+- Java 1.8 or later
+### Compiling requirement
+- JDK 1.8 or later
+- Apache Maven
+- Visual Studio Community 2017
+### Standalone deployment
 On Shell, execute command:
 ```
 java -jar phis_standalone.jar
 ```
-On Windows machine:
+On a Windows machine:
 ```
 open phis_standalone.exe
 ```
 ![phis standalone](https://github.com/bdaduy/phis/blob/master/images/phis_standalone.png?raw=true)
-*phis_standalone*
-### Client-server
-To start phis client from Windows machine:
+### Client-server deployment
+To start phis client on a Windows machine:
 ```
 open phis_client.exe
 ```
 ![phis client](https://github.com/bdaduy/phis/blob/master/images/phis_client.png?raw=true)
-*phis_client*
 To start phis_server from shell, execute command:
 ```
 java -jar phis_server.jar
 ```
 ![phis server](https://github.com/bdaduy/phis/blob/master/images/phis_server.png?raw=true)
-*phis_server*
-
-## Minimum Requirement
-- Windows 7/10
-- Java ([JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)/[JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)) >1.8 
-- PHIS was intended to be a portable software running on any Operating Systems installed with Java. The current revision has been tested on Windows platform. Future work is required to make it run on Linux or macOS. 
 
 
 
