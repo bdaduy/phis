@@ -48,6 +48,8 @@ java -jar phis_server.jar
 ```
 ![phis server](https://github.com/bdaduy/phis/blob/master/images/phis_server.png?raw=true)
 
+On the first run, phis_standalone and  phis_client will automatically create the "config" folder allowing ad hoc configuration (e.g, custom terminology, networking parameters, etc.)
+
 ## Developer's Quickstart Guide
 ### Development Recommendation
 - JDK 1.8 or later
@@ -61,22 +63,23 @@ java -jar phis_server.jar
 java -version
 mvn -version
 ```
-3. Compiling Java
-   - Navigate to project root folder ("phis") and execute command
+3. Compiling Java code
+- Navigate to project root folder ("phis"), execute command
 ```
 mvn clean install
 ```
-   - Examine artifacts on "phis_standalone\target", "phis_server\target"
-4. Compiling C#
-   - Open "phis_client.sln" with Visual Studio
-   - Build -> Rebuild Solution
-   - Examine artifacts on "phis_client\bin"
-5. Development Notes
-   - JavaFX technology was used to create graphic user interface. Suggested Entry: [AppFX.java](https://github.com/bdaduy/phis/blob/master/src/main/java/edu/db/tool/deid/app/fx/AppFX.java)
-   - De-Identification solution used a mixed of Natural Language Processing (NLP) techniques: Conditional Random Field, Ahocorasick algorithm, Regular Expressions, and some ad hoc algorithms. They are organized in a pipeline structure. Suggested Entry: [AllAnnotator.java](https://github.com/bdaduy/phis/blob/master/src/main/java/edu/db/tool/deid/app/AllAnnotator.java)
-   - Stanford NLP tool was used to train the conditional random field classifier. To train the CRF classifier, we used the [2014 I2b2 de-identification dataset](https://www.i2b2.org/NLP/DataSets/).
-   - PHIS was optimized for UAB's clinical text with some localized characteristics. We don't include some UAB-specific methods in the public release source code for our institution security. Testing phis on a different [sublanguage](https://en.wikipedia.org/wiki/Sublanguage#In_natural_language) might not yield its best performance. Users can adapt the tool to best solving their NLP problems by (1) maintaining their own site-specific lexicons (2) re-training the machine-learning model using local data, and (3) Modifying the source code to add more rules and ad hoc algorithms.
-   - We haven't had a plan to integrate external code submissions at this moment. Feel free to modify it to your own need.
+- Examine artifacts on "phis_standalone\target", "phis_server\target"
+4. Compiling C# code
+- Open "phis_client.sln" with Visual Studio
+- Build -> Rebuild Solution
+- Examine artifacts on "phis_client\bin"
+### Development Notes
+- Both deployment models used the NLP logics coded in the phis_standalone module. The phis_client user-interface (UI) used Windows Form App (C#.NET) technology, while phis_standalone ui used JavaFX technology.
+- The client-server model may be less flexible, however, it is more secure to utilize confidential resources (e.g, patient and physician databases).
+- The de-Identification solution used a mix of methods such as pattern-matching, dictionary-matching, and machine-learning divided into many independent [units or pipelines.](https://github.com/bdaduy/phis/blob/master/phis_standalone/src/main/java/edu/db/tool/deid/annotator/Annotator.java)
+- The machine-learning approach used the conditional random field (CRF) classifier implemented by Stanford NLP Group. The CRF classifiers were trained on the [2014 I2b2 de-identification dataset](https://www.i2b2.org/NLP/DataSets/) and the UAB local dataset.
+- PHIS allows user-defined dictionaries by dropping text files to corresponding folder on "config\custom_dict".
+- PHIS might underperform on texts on different domains due to the effect of medical [sublanguage](https://en.wikipedia.org/wiki/Sublanguage#In_natural_language). In such situation, users can evolve phis by (1) develop meaningful local terms (2) re-train the machine-learning classifer on local data, and (3) Add more rules and ad hoc algorithms to the pipeline.
 
 ## Trouble Shooting
 - Try to "Run as administrator" if the program cannot trigger the main interface.

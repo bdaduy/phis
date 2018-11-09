@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author DuyMac
+ * @author Duy Bui
  */
 public class Annotator_Patient_StructuredDB {
     

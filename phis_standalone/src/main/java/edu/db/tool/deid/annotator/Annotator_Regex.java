@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author dbui
+ * @author Duy Bui
  */
 public class Annotator_Regex{
 

@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  *
- * @author dbui
+ * @author Duy Bui
  */
 public final class JSonAnnotation {
 

@@ -9,7 +9,7 @@ import edu.db.tool.deid.document.IDocument;
 
 /**
  *
- * @author dbui
+ * @author Duy Bui
  */
 public class Annotator {
 
