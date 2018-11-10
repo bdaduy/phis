@@ -19,7 +19,6 @@ public class Annotator {
         doc.addPHI(Annotator_CRF_I2b22014_1304_LDS.annotate(doc));
         doc.addPHI(Annotator_CRF_UAB_305_LDS.annotate(doc));
         doc.addPHI(Annotator_CRF_I2b22014_1304_AgeDateZip.annotate(doc));
-        doc.addPHI(Annotator_Patient_StructuredDB.annotate(doc));
 
         doc.addPHI(Annotator_Common_Human_Names.annotate(doc));
         doc.addPHI(Annotator_Regex.annotate(doc));

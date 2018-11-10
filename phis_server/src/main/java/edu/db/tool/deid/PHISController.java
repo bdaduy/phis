@@ -5,6 +5,7 @@ import edu.db.tool.deid.model.RequestLookupPHI;
 import edu.db.tool.deid.model.JSonAnnotation;
 import edu.db.tool.deid.model.ResponseLookupPHI;
 import edu.db.tool.deid.annotator.Annotator;
+import edu.db.tool.deid.annotator.Annotator_Patient_StructuredDB;
 import edu.db.tool.deid.utils.ClassInit;
 import edu.db.tool.deid.document.IAnnotation;
 import edu.db.tool.deid.document.IDocument;
@@ -48,7 +49,7 @@ public class PHISController {
         
         Annotator.annotate(doc);
         
-//        List<IAnnotation> anns = AllAnnotator.annotate(request.patientId, request.text);
+        doc.addPHI(Annotator_Patient_StructuredDB.annotate(doc));
         
         List<IAnnotation> anns=doc.getPHIAnns();
         
