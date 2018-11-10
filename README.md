@@ -76,17 +76,18 @@ mvn clean install
 ### Development Notes
 - Both deployment models used the NLP logics coded in the phis_standalone module. The phis_client user-interface (UI) used Windows Form App (C#.NET) technology, while phis_standalone ui used JavaFX technology.
 - The client-server model may be less flexible, however, it is more secure to utilize confidential resources (e.g, patient and physician databases).
+- The symetric encryption algorithm, Advanced Encryption Standard (AES), was used to encrypt messages between client and server. To change the encryption key, modify the "ChangeMe" value in PHISController.java (server) and in config/AppConfig.xml (client).
 - The de-Identification solution used a mix of methods such as pattern-matching, dictionary-matching, and machine-learning divided into many independent [units or pipelines.](https://github.com/bdaduy/phis/blob/master/phis_standalone/src/main/java/edu/db/tool/deid/annotator/Annotator.java)
 - The machine-learning approach used the conditional random field (CRF) classifier implemented by Stanford NLP Group. The CRF classifiers were trained on the [2014 I2b2 de-identification dataset](https://www.i2b2.org/NLP/DataSets/) and the UAB local dataset.
 - PHIS allows user-defined dictionaries by dropping text files to corresponding folder on "config\custom_dict".
-- PHIS might underperform on texts on different domains due to the effect of medical [sublanguage](https://en.wikipedia.org/wiki/Sublanguage#In_natural_language). In such situation, users can evolve phis by (1) develop meaningful local terms (2) re-train the machine-learning classifer on local data, and (3) Add more rules and ad hoc algorithms to the pipeline.
+- PHIS might underperform on texts on different domains due to the effect of medical [sublanguage](https://en.wikipedia.org/wiki/Sublanguage#In_natural_language). In such situation, users can evolve phis by (1) develop meaningful local terminologies (2) re-train the machine-learning classifer on local data, and (3) Add more rules and ad hoc algorithms to the pipeline.
 
 ## Trouble Shooting
-- Try to "Run as administrator" if the program cannot trigger the main interface.
+- Try to "Run as administrator" if the program cannot start.
 - If you encounter OutOfMemoryError, try to increase maximum Java heap space (e.g,-Xmx1g)
 
 ## Disclaimer
-- The software was developed for internal use. Some UAB-specific components were not included in the public release. It holds no legal liability and no responsibility for using the software in other contexts.
+- PHIS was developed for internal use. Some UAB-specific components were not included in the public release. Further uses of the tool in specific situations will need cautiously and comprehensively testing and adaptation. We hold no liability and accoutability for any damages or losses resulted from the uses of the software.
 
 ## References
 - Developer: Duy Duc An Bui (PhD)
