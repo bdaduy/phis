@@ -15,9 +15,11 @@ The majority code of the solution used Java technology. Only the thin client of 
 ## Latest Build
 - [phis_standalone.exe](https://github.com/bdaduy/phis/releases/download/v1.0/phis_standalone.exe)
 - [phis_standalone.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_standalone.jar)
+
 - [phis_client.exe](https://github.com/bdaduy/phis/releases/download/v1.0/phis_client.exe)
 - [phis_server.jar](https://github.com/bdaduy/phis/releases/download/v1.0/phis_server.jar)
-- [source code](https://github.com/bdaduy/phis/archive/v1.0.zip)
+
+- [Source Code](https://github.com/bdaduy/phis/archive/v1.0.zip)
 
 ## How To Run
 ### Minimum Runtime Requirement
@@ -25,30 +27,30 @@ The majority code of the solution used Java technology. Only the thin client of 
 - Java 1.8 or later
 
 ### Standalone Deployment
-On Shell, execute command:
+- On Shell, execute command:
 ```
 java -jar phis_standalone.jar
 ```
-On a Windows machine:
+- On a Windows machine:
 ```
 open phis_standalone.exe
 ```
 ![phis standalone](https://github.com/bdaduy/phis/blob/master/images/phis_standalone.png?raw=true)
 
 ### Client-server deployment
-To start phis client on a Windows machine:
+- To start phis client on a Windows machine:
 ```
 open phis_client.exe
 ```
 ![phis client](https://github.com/bdaduy/phis/blob/master/images/phis_client.png?raw=true)
 
-To start phis_server from shell, execute command:
+- To start phis_server from shell, execute command:
 ```
 java -jar phis_server.jar
 ```
 ![phis server](https://github.com/bdaduy/phis/blob/master/images/phis_server.png?raw=true)
 
-On the first run, phis_standalone and  phis_client will automatically create the "config" folder allowing ad hoc configuration (e.g, custom terminology, networking parameters, etc.)
+- On the first run, phis_standalone and  phis_client will automatically create the "config" folder allowing ad hoc configuration (e.g, custom terminology, networking parameters, etc.)
 
 ## Developer's Quickstart Guide
 ### Development Recommendation
@@ -87,7 +89,7 @@ mvn clean install
 - If you encounter OutOfMemoryError, try to increase maximum Java heap space (e.g,-Xmx1g)
 
 ## Disclaimer
-- PHIS was developed for internal use. Some UAB-specific components were not included in the public release. Further uses of the tool in specific situations will need cautiously and comprehensively testing and adaptation. We hold no liability and accoutability for any damages or losses resulted from the uses of the software.
+PHIS was developed for internal use. Some UAB-specific components were not included in the public release. Further uses of the tool in specific situations will need cautiously and comprehensively testing and adaptation. We hold no liability and accoutability for any damages or losses resulted from the uses of the software.
 
 ## References
 - Developer: Duy Duc An Bui (PhD)
