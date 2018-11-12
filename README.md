@@ -57,7 +57,7 @@ java -jar phis_server.jar
 - JDK 8
 - Apache Maven 3.6
 - Visual Studio Community 2017
-- Netbeans / Eclipse
+- Netbeans 8.2
 ### Compiling
 1. Clone/Download the source code at https://github.com/bdaduy/phis.git
 2. Test if JDK and Maven were imported to environment variables.
