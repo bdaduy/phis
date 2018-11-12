@@ -24,7 +24,7 @@ The majority code of the solution used Java technology. Only the thin client of 
 ## How To Run
 ### Minimum Runtime Requirement
 - Windows 7 or later / MacOS
-- Java 1.8 or later
+- Java 8
 
 ### Standalone Deployment
 - On Shell, execute command:
@@ -53,9 +53,9 @@ java -jar phis_server.jar
 - On the first run, phis_standalone and  phis_client will automatically create the "config" folder allowing ad hoc configuration (e.g, custom terminology, networking parameters, etc.)
 
 ## Developer's Quickstart Guide
-### Development Recommendation
-- JDK 1.8 or later
-- Apache Maven
+### Development Tools
+- JDK 8
+- Apache Maven 3.6
 - Visual Studio Community 2017
 - Netbeans / Eclipse
 ### Compiling
