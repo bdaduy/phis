@@ -54,7 +54,7 @@ java -jar phis_server.jar
 
 ## Developer's Quickstart Guide
 ### Development Tools
-- JDK 8
+- JDK 1.8.0_192
 - Apache Maven 3.6
 - Visual Studio Community 2017
 - Netbeans 8.2
